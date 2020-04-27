@@ -27,13 +27,13 @@
             System.out.print(prompt)
                 
             if (sc.hasNextDouble() {
-            d = sc.NextDouble();
-            sc.nextLine();
-            return d;
+                d = sc.NextDouble();
+                sc.nextLine();
+                return d;
             } 
             else {
-            System.out.println("Error! Invalid number. Try again.");
-            sc.nextLine();
+                System.out.println("Error! Invalid number. Try again.");
+                sc.nextLine();
             }
         }
     }
