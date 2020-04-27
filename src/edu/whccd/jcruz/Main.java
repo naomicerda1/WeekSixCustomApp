@@ -1,10 +1,10 @@
     public static void main(String[] args) {
 
-        // fix the runtime error caused by the line below by deleting, commenting, or encapsulating it in a try-catch block
+        // 2. fix the runtime error caused by the line below by deleting, commenting, or encapsulating it in a try-catch block
         getDouble(null, null);
 
 
-        // fix the logic error so it calls the getDouble() on the 100th iteration
+        // 3. fix the logic error so it calls the getDouble() on the 100th iteration
         for (int i = 1; i < 100; i++) {
             if (i == 50)
             {
@@ -18,7 +18,7 @@
         }
     }
 
-    // fix the syntax errors in the method below
+    // 1. fix the syntax errors in the method below
     public static double getDouble(Scanner sc, String prompt)
     {
         d = 0.0;
