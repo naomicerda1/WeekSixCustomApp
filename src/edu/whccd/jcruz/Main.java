@@ -25,11 +25,13 @@
         while (true)
         {
             System.out.print(prompt)
+                
             if (sc.hasNextDouble() {
             d = sc.NextDouble();
             sc.nextLine();
             return d;
-            } else {
+            } 
+            else {
             System.out.println("Error! Invalid number. Try again.");
             sc.nextLine();
             }
