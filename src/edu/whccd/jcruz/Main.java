@@ -1,14 +1,3 @@
-package edu.whccd.jcruz;
-
-import java.util.Scanner;
-
-/*
-    The purpose of this application is to learn about debugging using an IDE
-    author: jonathan cruz
- */
-
-public class Main {
-
     public static void main(String[] args) {
 
         // fix the runtime error caused by the line below by deleting, commenting, or encapsulating it in a try-catch block
@@ -46,4 +35,3 @@ public class Main {
             }
         }
     }
-}
